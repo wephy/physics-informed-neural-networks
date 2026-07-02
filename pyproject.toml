@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinn"
+version = "0.1.0"
+description = "A JAX/Equinox framework for solving PDEs with physics-informed neural networks."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jax",
+    "equinox",
+    "jaxtyping",
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pinn = ["references/*.npz"]

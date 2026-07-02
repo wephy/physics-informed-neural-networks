@@ -1,0 +1,20 @@
+# Core (JAX with NVIDIA CUDA 12 GPU support)
+jax[cuda12]==0.9.1
+equinox==0.13.4
+jaxtyping==0.3.9
+
+# Numerics
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.3
+joblib==1.5.3
+
+# Plotting / notebook interface
+matplotlib==3.11.0
+ipywidgets==8.1.8
+ipykernel==7.3.0
+jupyterlab==4.5.7
+jupyter==1.1.1
+
+# The pinn package itself (editable), so `import pinn` works from any directory
+-e .
