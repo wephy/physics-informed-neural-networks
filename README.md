@@ -11,6 +11,7 @@ or double (`train64`) precision, reaching machine limit accuracy on a suite of p
 
 > **An Optimisation Framework for the Well-Conditioned Training of
 > Physics-Informed Neural Networks**
+> 
 > Joseph Webb, Sadok Jerad, Coralia Cartis – Mathematical Institute, University of Oxford
 
 <p align="center">
