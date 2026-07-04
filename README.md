@@ -6,12 +6,11 @@ A JAX/Equinox framework for solving PDEs with physics-informed neural networks
 A Doubly-Sketched Gauss–Newton model with novel Adaptive Ratio steps (**DSGNAR**) trains the network in single (`train32`)
 or double (`train64`) precision, reaching machine limit accuracy on a suite of problems.
 
-[![arXiv](https://img.shields.io/badge/arXiv-2607.02194-b31b1b.svg)](https://arxiv.org/abs/2607.02194)
+[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![Paper PDF](https://img.shields.io/badge/paper-PDF-blue.svg)](assets/paper.pdf)
 
 > **An Optimisation Framework for the Well-Conditioned Training of
 > Physics-Informed Neural Networks**
-> 
 > Joseph Webb, Sadok Jerad, Coralia Cartis – Mathematical Institute, University of Oxford
 
 <p align="center">
